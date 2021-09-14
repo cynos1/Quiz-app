@@ -29,11 +29,11 @@ function App() {
         </div>
       ):(
       <>
-        <h4> {questions[number].questionText}</h4>
-        <div className="options">
+        <h4 className="question"> {questions[number].questionText}</h4>
+        <div className="option-section">
           {questions[number].answerOptions.map((choice)=>{
             return (
-              <button onClick={()=> handleoptionclick(choice.isCorrect)}>{choice.answerText}</button>
+              <button className="options" onClick={()=> handleoptionclick(choice.isCorrect)}>{choice.answerText}</button>
             )
           })}
         </div>
