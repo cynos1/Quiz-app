@@ -3,7 +3,7 @@ import data from './question.json';
 import './App.css';
 
 function App() {
-  const [questions, setquestions] = useState(data);
+  const [questions] = useState(data);
   const [score, setscore] = useState(0);
   const [number, setnumber] = useState(0);
   const [showscore, setshowscore] = useState(false);
