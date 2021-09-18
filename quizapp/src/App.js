@@ -29,6 +29,7 @@ function App() {
         </div>
       ):(
       <>
+      <em>Choose the right answer for each question</em>
         <h4 className="question"> {questions[number].questionText}</h4>
         <div className="option-section">
           {questions[number].answerOptions.map((choice)=>{

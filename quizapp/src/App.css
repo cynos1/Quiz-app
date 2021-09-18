@@ -7,6 +7,12 @@
   display: block;
   align-items: center;
   text-align: center;
+  border: 1px solid;
+  background-color: blanchedalmond;
+  max-width: 800px;
+  width:700px;
+  box-shadow: 4px 7px 5px #666;
+  
 }
 .options{
   background-color: aqua;
